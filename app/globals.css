@@ -17,7 +17,7 @@
 }
 
 .padding-x {
-  @apply sm:px-16 px-6;
+  @apply sm:px-14 px-5;
 }
 
 .padding-y {
@@ -43,7 +43,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[68px] sm:text-[60px] text-[48px] font-extrabold;
 }
 
 .hero__subtitle {
@@ -55,7 +55,7 @@
 }
 
 .hero__image {
-  @apply relative xl:w-full w-[90%] xl:h-full h-[590px] z-0;
+  @apply relative xl:w-full w-[85%] xl:h-full h-[590px] z-0;
 }
 
 .hero__image-overlay {

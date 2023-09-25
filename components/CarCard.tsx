@@ -32,7 +32,7 @@ const CarCard = ({ car }: CarCardProps) => {
 
             <div className="relative w-full h-40 my-3 object-contain">
                 <Image
-                    src="/hero.png"
+                    src="/cars.png"
                     alt="car-model"
                     fill
                     priority
@@ -80,7 +80,7 @@ const CarCard = ({ car }: CarCardProps) => {
                         textStyles="text-white text-[14px] leading-[17px] font-button"
                         rightIcon="/right-arrow.svg"
                         handleClick={() => setIsOpen(true)}
-                        containerStyles="w-full py-[16px] rounded-full bg-primary-blue"
+                        containerStyles="w-full py-[16px] rounded-full bg-blue-600"
                     />
                 </div>
             </div>
