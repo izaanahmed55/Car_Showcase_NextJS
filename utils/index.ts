@@ -41,8 +41,6 @@ export async function fetchCars(filters: FilterProps) {
 
     const url = `https://cars-by-api-ninjas.p.rapidapi.com/v1/cars${queryString}`;
 
-    console.log("🔰 Url: ", url);
-
     const response = await fetch(url, {
         headers: headers,
     });
