@@ -88,7 +88,7 @@
 
 /* START: Car Card styles */
 .car-card {
-  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
+  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-gray-100 hover:bg-white hover:shadow-md rounded-3xl;
 }
 
 .car-card__content {
@@ -138,7 +138,7 @@
 }
 
 .car-details__close-btn {
-  @apply absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 rounded-full;
+  @apply absolute top-2 right-2 z-10 w-fit p-2 bg-primary-gray-100 rounded-full;
 }
 
 .car-details__main-image {
