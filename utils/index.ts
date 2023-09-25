@@ -1,3 +1,5 @@
+"use client"
+
 import { FilterProps } from "@/types";
 
 export async function fetchCars(filters: FilterProps) {
