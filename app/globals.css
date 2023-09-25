@@ -43,7 +43,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[68px] sm:text-[60px] text-[48px] font-extrabold;
+  @apply 2xl:text-[68px] sm:text-[60px] text-[48px] font-extrabold leading-[5rem];
 }
 
 .hero__subtitle {
@@ -217,3 +217,15 @@
   @apply cursor-default select-none py-2 pl-10 pr-4;
 }
 /* END: search manufacturer styles */
+
+body {
+  background: hsla(279, 100%, 97%, 1);
+
+background: linear-gradient(225deg, hsla(279, 100%, 97%, 1) 0%, hsla(192, 52%, 94%, 1) 100%);
+
+background: -moz-linear-gradient(225deg, hsla(279, 100%, 97%, 1) 0%, hsla(192, 52%, 94%, 1) 100%);
+
+background: -webkit-linear-gradient(225deg, hsla(279, 100%, 97%, 1) 0%, hsla(192, 52%, 94%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9EEFF", endColorstr="#E9F5F8", GradientType=1 );
+}
